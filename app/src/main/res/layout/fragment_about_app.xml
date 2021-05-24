@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AboutAppFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtAboutApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_app_fragment"
+        android:textSize="20sp"
+        android:padding="10dp"/>
+    <ImageView
+        android:id="@+id/imgAbout_App"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@mipmap/book_app_icon"
+        android:layout_marginTop="230dp" />
+
+    <TextView
+        android:id="@+id/txtAbout_App"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/book_hub"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_below="@+id/imgAbout_App"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/txtVersion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAbout_App"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/version_1_0"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/imgCopyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtVersion"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_action_copyright" />
+
+    <TextView
+        android:id="@+id/txtCopyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/copyright_2020"
+        android:textSize="15sp"
+        android:layout_below="@id/txtVersion"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="10dp" />
+
+
+</RelativeLayout>

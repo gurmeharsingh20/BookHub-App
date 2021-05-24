@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_fragment"
+        android:textSize="20sp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gurmehar_singh"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="130dp" />
+
+    <TextView
+        android:id="@+id/txtEmail_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gurmeharsingh200_gmail_com"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/txtName"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="70dp" />
+
+    <TextView
+        android:id="@+id/txtPhoneNo."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7838583348"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/txtEmail_id"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="140dp" />
+
+</RelativeLayout>
